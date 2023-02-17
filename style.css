@@ -1,0 +1,27 @@
+* {
+    font-family: "Arial", sans-serif;
+}
+h1 {
+    text-align: center;
+}
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+    outline: none;
+}
+input::placeholder{
+    font-size: 11px;
+}
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+button:hover {
+    cursor: pointer;
+}

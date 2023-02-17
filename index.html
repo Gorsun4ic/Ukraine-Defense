@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Калькулятор ЗУ</title>
+</head>
+<body>
+    
+    <h1>Калькулятор визначення відстані</h1>
+    <h3>Позначення</h3>
+    <ul>
+        <li>B - відстань</li>
+        <li>L - лінійний розмір об'єкта, висота, довжина або ширина (в метрах)</li>
+        <li>6 - постійна величина</li>
+        <li>l - вимірювання величини об'єкта лінійкою (в міліметрах)</li>
+        <li>У - Кут під яким видно предмет в тисячних (наприклад 0-20 в формулі буде як 20; 1-20 - в формулі буде як 120)</li>
+    </ul>
+    <h3>Визначення відстані до об'єкта за допомогою визначеної лінійної величини</h3>
+    <form>
+        <input type="text" placeholder="Лінійний розмір об'єкта (ширина/висота) L" class="size"> <br>
+        <input type="text" placeholder="Виміряна величина об'єкта лінійкою l" class="ruler"> <br>
+        <button class="calculate">Розрахувати</button>
+    </form>
+    <h3 class="result">Результат: </h3>
+    <h3>Визначення відстані до об’єкту по формулі «тисячної»</h3>
+    <form class="thousand">
+        <input type="text" placeholder="Лінійний розмір об'єкта (ширина/висота) L" class="sizeThousand"> <br>
+        <input type="text" placeholder="Кут в вимірній тисячних K" class="angle"> <br>
+        <button class="calculateThousand">Розрахувати</button>
+    </form>
+    <h3 class="resultThousand">Результат: </h3>
+    <script src="./script.js"></script>
+</body>
+</html>
